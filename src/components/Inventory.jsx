@@ -3,7 +3,7 @@ import AddFishForm from "./AddFishForm";
 import EditFishForm from "./EditFishForm";
 import Login from "./Login";
 import base, { firebaseApp } from "../base";
-import firebase from "firebase";
+import firebase from 'firebase/app';
 
 class Inventory extends Component {
   state = {
